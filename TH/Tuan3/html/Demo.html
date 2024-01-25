@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    body {
+        background-image: url(../img/anhNen.webp);
+    }
+    
+    .wrapper {
+        height: 800px;
+        width: 1089px;
+        background-color: aliceblue;
+    }
+    
+    header {
+        position: absolute;
+    }
+    
+    header #frm1 {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+    
+    nav {
+        position: absolute;
+    }
+    
+    .menu li {
+        line-height: 50px;
+        height: 50px;
+        text-align: center;
+        width: 150px;
+        background-color: brown;
+        list-style-type: none;
+        text-indent: 20px;
+        position: absolute;
+        border: 2px solid yellow;
+    }
+    
+    li:nth-child(5) {
+        right: 100px;
+    }
+    
+    li:nth-child(4) {
+        right: 260px;
+    }
+    
+    li a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../img/i.jpg" alt="" srcset="" width="1089" height="150">
+            <form action="" method="post" id="frm1">
+                <input type="search" name="TextS" id="TextS" placeholder="Your name ">
+                <button type="submit">Tan</button>
+            </form>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">ITEAM1</a></li>
+                <li><a href="">ITEAM2</a></li>
+                <li><a href="">ITEAM3</a></li>
+                <li><a href="">ITEAM4</a></li>
+                <li><a href="">ITEAM5</a></li>
+            </ul>
+        </nav>
+        <div class="content"></div>
+        <fooder></fooder>
+    </div>
+</body>
+
+</html>
